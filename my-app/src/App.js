@@ -7,21 +7,39 @@ class App extends Component {
     return (
       <div>
           <button className="btn">Add</button>
-          <ul className="list-group">
-            <li className="list-group-item">Cras justo odio</li>
-            <li className="list-group-item">Dapibus ac facilisis in</li>
-            <li className="list-group-item">Morbi leo risus</li>
-            <li className="list-group-item">Porta ac consectetur ac</li>
-            <li className="list-group-item">Vestibulum at eros</li>
-          </ul>
+          <Edit_item></Edit_item>
+          <Edit></Edit>
         </div>
 
     );
   }
 }
 
+class Edit extends Component {
+    render() {
+        return (
+            <div>
+                <ul className="list-group">
+                    <li className="list-group-item">Cras justo odio</li>
+                </ul>
+            </div>
 
+        );
+    }
+}
 
+class Edit_item extends Component {
+    render() {
+        return (
+            <div>
+                <ul className="list-group">
+                    <li className="list-group-item">Cras justo odio</li>
+                </ul>
+            </div>
+
+        );
+    }
+}
 
 
 
