@@ -15,7 +15,7 @@ class App extends Component {
   }
 }
 
-class Edit extends Component {
+class Edit extends React.Component {
     render() {
         return (
             <div>
@@ -28,7 +28,7 @@ class Edit extends Component {
     }
 }
 
-class Edit_item extends Component {
+class Edit_item extends React.Component {
     render() {
         return (
             <div>
